@@ -1,12 +1,17 @@
+:root{
+    margin: auto;
+}
+body{
+    background-color: ;
+}
 
-/*navigation*/ /* i used the styling of this websites navigation bar https://codepen.io/jakestuts/full/eyvrx as inspiration for my navigation bar*/
 nav{
     margin: 10px;
     text-align: center;
     display: flex;
     flex-direction: row;
     justify-content: center;
-    color: var(--text1);
+
 }
 
 ul {
@@ -53,4 +58,12 @@ body {
 .profile{
     margin: 10px;
     height: 350px;
+}
+
+.boxes{/*this puts the images into a grid*/
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 1rem;
+    align-items: center;
+
 }
