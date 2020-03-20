@@ -1,9 +1,7 @@
 :root{
     margin: auto;
 }
-body{
-    background-color: blanchedalmond ;
-}
+
 
 nav{
     margin: 10px;
@@ -46,24 +44,7 @@ li a:hover {
 }
 
 
-body {
-    text-align: center;
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
 
-}
 
-.profile{
-    margin: 10px;
-    height: 350px;
-}
 
-.boxes{/*this puts the images into a grid*/
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-gap: 1rem;
-    align-items: center;
 
-}
