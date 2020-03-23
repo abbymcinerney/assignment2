@@ -46,5 +46,34 @@ li a:hover {
 
 
 
+.box-item {
+    max-width: 100%;
+    border-radius: 5px;
+    box-shadow: 0 5px 20px var(--light);
+    transition: all .3s;
+    overflow: hidden;
+    position: relative;
+}
 
+
+
+.boxes{/*this puts the images into a grid*/
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 1rem;
+    align-items: center;
+
+}
+
+/*text boxes*/
+
+
+
+
+.table {
+    height: auto;
+    border: var(--border);
+    box-shadow: 0 10px 20px var(--light);
+    
+}
 
