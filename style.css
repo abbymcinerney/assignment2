@@ -2,7 +2,9 @@
     margin: auto;
 }
 
-
+body{
+    background-color: #E5E5E5;
+}
 nav{
     margin: 10px;
     text-align: center;
@@ -12,36 +14,7 @@ nav{
 
 }
 
-ul {
-    overflow:auto;
-    list-style-type: none
-}
 
-li {
-    height:20px;
-    float:left;
-    margin-right: 0px;
-    border-right: 3px solid
-    grey; 
-    padding: 0 15px;
-}
-
-li:last-child {
-    border-right:none;
-}
-
-li a {
-    text-decoration: none;
-    text-align: center;
-    color: grey;
-    font: 20px/1 Helvetica, Verdana, sans-serif;
-    text-transform: uppercase;
-
-}
-
-li a:hover {
-    color: rgb(253, 124, 225);
-}
 
 
 
@@ -49,8 +22,6 @@ li a:hover {
 .box-item {
     max-width: 100%;
     border-radius: 5px;
-    box-shadow: 0 5px 20px var(--light);
-    transition: all .3s;
     overflow: hidden;
     position: relative;
 }
@@ -65,10 +36,6 @@ li a:hover {
 
 }
 
-/*text boxes*/
-
-
-
 
 .table {
     height: auto;
@@ -77,3 +44,103 @@ li a:hover {
     
 }
 
+/* contact me*/
+/*code from https://codepen.io/Chitransh_Harshwal/pen/bjjwep*/
+.container2 {
+    border-radius: 5px; 
+   
+    padding: 2px;  
+    text-align: center;
+}
+  
+  .row:after {
+    content: "";
+    display: table;
+    clear : both;
+
+  }
+  .row{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  
+  .col-70{
+    margin-left: 5em;
+    margin-top: 10px;
+    padding: 10px;
+    width: 70%;
+  }
+  
+  input[type=text], [type=email] { 
+    width: 100%;
+    padding: 12px;
+    border: hidden;
+    font-size: 18px;
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.4rem;
+    font-weight: 200;
+    color: var(--accent);
+    border-bottom: 2px solid #fde3fb;;
+    outline: none;
+    box-sizing: border-box;
+    resize: vertical;
+    
+  }
+  
+  input:focus {
+    font-style: italic;
+    border-bottom: 2px solid #fde3fb;;
+  }
+  
+  textarea{
+   width: 100%;
+    padding: 12px;
+    border: hidden;
+    font-size: 18px;
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.4rem;
+    font-weight: 200;
+    color: #fde3fb;;
+    border-bottom: 2px solid #fde3fb;
+    outline: none;
+    height: 100px;
+    resize: none;
+  }
+  
+  textarea:focus  {
+    font-style: italic;
+    border-bottom: 2px solid #fde3fb;
+  }
+  
+  input[type=submit] {
+    border: 2px solid #fde3fb;;
+    padding: 12px 12px 10px 12px;
+    font-size: 18px;
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.4rem;
+    font-weight: 200;
+    color: #fde3fb;;
+    background-color: ;
+    float: right;
+    color: var(--accent);
+    text-transform: uppercase;
+    transition: all 0.35s ease-in-out;
+  }
+  
+  input[type=submit]:hover {
+    color: var(--text2);
+    padding: 12px 56px 10px 56px;
+    outline: none;
+    border: 2px solid #fde3fb;
+    letter-spacing: 0px;
+    background-color: #fde3fb;
+    
+  }
+  
+  @media screen and (max-width: 600px) {
+      .row, .col-70, input[type=submit] {
+          width: 100%;
+          margin-top: 0;
+      }
+  }
