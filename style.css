@@ -3,7 +3,7 @@
 }
 
 body{
-    background-color: #E5E5E5;
+    background-color: rgb(236, 236, 236);
 }
 nav{
     margin: 10px;
@@ -81,7 +81,8 @@ nav{
     font-size: 1.4rem;
     font-weight: 200;
     color: var(--accent);
-    border-bottom: 2px solid #fde3fb;;
+    border-bottom: 2px solid #fdd4fa;;
+    background-color: rgb(231, 231, 231);
     outline: none;
     box-sizing: border-box;
     resize: vertical;
@@ -90,7 +91,7 @@ nav{
   
   input:focus {
     font-style: italic;
-    border-bottom: 2px solid #fde3fb;;
+    border-bottom: 2px solid #fdd4fa;;
   }
   
   textarea{
@@ -101,8 +102,8 @@ nav{
     font-family: 'Oswald', sans-serif;
     font-size: 1.4rem;
     font-weight: 200;
-    color: #fde3fb;;
-    border-bottom: 2px solid #fde3fb;
+    border-bottom: 2px solid #fdd4fa;
+    background-color: rgb(231, 231, 231);
     outline: none;
     height: 100px;
     resize: none;
@@ -110,18 +111,17 @@ nav{
   
   textarea:focus  {
     font-style: italic;
-    border-bottom: 2px solid #fde3fb;
+    border-bottom: 2px solid #fdd4fa;
   }
   
   input[type=submit] {
-    border: 2px solid #fde3fb;;
+    border: 2px solid #fdd4fa;;
     padding: 12px 12px 10px 12px;
     font-size: 18px;
     font-family: 'Oswald', sans-serif;
     font-size: 1.4rem;
     font-weight: 200;
-    color: #fde3fb;;
-    background-color: ;
+    background-color: rgb(231, 231, 231);
     float: right;
     color: var(--accent);
     text-transform: uppercase;
@@ -132,9 +132,9 @@ nav{
     color: var(--text2);
     padding: 12px 56px 10px 56px;
     outline: none;
-    border: 2px solid #fde3fb;
+    border: 2px solid #fdd4fa;
     letter-spacing: 0px;
-    background-color: #fde3fb;
+    background-color: #fdd4fa;
     
   }
   
