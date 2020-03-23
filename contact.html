@@ -28,56 +28,37 @@
     
   </nav>
 
-  <div class="container">
-    <div class="boxes">
-    <div class="box-item">
-        <div class="table">
-          
-          <div class="card" style="width: 24rem;">
-            <img src="images/card1.jpg" class="card-img-top" alt="abby mcinerney">
-            <div class="card-body">
-              <h5 class="card-title">A bit about me:</h5>
-              <p class="card-text">My name is Abby, I'm a student Web Developer taking Business Computing (Web Design) at the University of Northampton.</p>
-          
-              <a href="about.html" class="btn btn-secondary">Learn More...</a>
+    <div class="container2">
+        <form action="/action_page.php" method="post">
+          <div class="row">
+              <div class="col-70">
+                 <input type="text" id="name" name="Name" placeholder="Name*" required>
+              </div>
+          </div>
+          <div class="row">
+              <div class="col-70">
+                <input type="email" id="email" name="email" placeholder="Email*" required> 
+              </div>
+          </div>
+          <div class="row">
+            <div class="col-70">
+              <input type="text" id="subject" name="subject" placeholder="Subject" > 
             </div>
           </div>
-        
-        </div>      
-    </div>
-
-      
-
-
-
-    <div class="box-item">
-        
-    </div>
-
-    <div class="box-item">
-        <div class="table">
-          <div class="card" style="width: 24rem;">
-            <img src="images/card1.jpg" class="card-img-top" alt="abby mcinerney">
-            <div class="card-body">
-              <h5 class="card-title">Experience:</h5>
-              <p class="card-text">I have experience Python, Java, HTML, CSS and JavaScript alongside some beginner coding programs like Scratch and Greenfoot.</p>
-              
-          
-              <a href="cv.html" class="btn btn-secondary">Learn More...</a>
+          <div class="row">
+            <div class="col-70">
+              <textarea id="message" placeholder="Message" ></textarea>
             </div>
-          </div> 
-
           </div>
-    </div>
-
-    </div>
-    </div>
+          <div class="row">
+            <div class="col-70">
+              <input type="submit" id="submit" value="Send Message">
+            </div>
+          </div>
+        </form>
+      </div>  <!-- i got this code from https://codepen.io/Chitransh_Harshwal/pen/bjjwep-->
 
 
     <script src="main.js"></script>
 </body>
 </html>
-
-
-
- 
