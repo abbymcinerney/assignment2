@@ -14,35 +14,35 @@ nav{
 
 }
 
+a{
+    color: black;
+}
 
 
 
-
-
+/*landing page grid*/
 .box-item {
     max-width: 100%;
     border-radius: 5px;
     overflow: hidden;
     position: relative;
+    display: flex;
+    align-items: center;
+    
 }
-
-
-
-.boxes{/*this puts the images into a grid*/
+.boxes{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-gap: 1rem;
     align-items: center;
 
 }
-
-
 .table {
     height: auto;
-    border: var(--border);
-    box-shadow: 0 10px 20px var(--light);
+    box-shadow: 0 10px 20px rgb(226, 226, 226);
     
 }
+
 
 /* contact me*/
 /*code from https://codepen.io/Chitransh_Harshwal/pen/bjjwep*/
