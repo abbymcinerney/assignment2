@@ -21,22 +21,25 @@ a{
 
 
 /*landing page grid*/
+.boxes{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 2rem;
+  align-items: center;
+}
+
+
 .box-item {
     max-width: 100%;
     border-radius: 5px;
-    overflow: hidden;
+    overflow: visible;
     position: relative;
     display: flex;
     align-items: center;
     
+    
 }
-.boxes{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-gap: 1rem;
-    align-items: center;
 
-}
 .table {
     height: auto;
     box-shadow: 0 10px 20px rgb(226, 226, 226);
