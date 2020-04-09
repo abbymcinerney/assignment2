@@ -5,37 +5,42 @@
 body{
     background-color: rgb(236, 236, 236);
 }
-nav{
-    margin: 10px;
-    text-align: center;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
 
-}
 
 a{
     color: black;
 }
 
-
+nav{
+  margin-top: 1rem;
+}
 
 /*landing page grid*/
+
+.centre{ 
+  padding: 1rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
 .boxes{
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-gap: 2rem;
-  align-items: center;
+  grid-template-columns: 1fr 1fr;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  
 }
 
 
 .box-item {
+    padding-left: 1rem;
+    padding-right: 1rem;
     max-width: 100%;
     border-radius: 5px;
     overflow: visible;
     position: relative;
-    display: flex;
-    align-items: center;
     
     
 }
@@ -45,7 +50,9 @@ a{
     box-shadow: 0 10px 20px rgb(226, 226, 226);
     
 }
-
+.card-body{
+  text-align: center;
+}
 
 /* contact me*/
 /*code from https://codepen.io/Chitransh_Harshwal/pen/bjjwep*/
