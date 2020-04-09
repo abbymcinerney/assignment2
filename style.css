@@ -54,6 +54,23 @@ nav{
   text-align: center;
 }
 
+.footer {
+  background-color: #f5f5f5;
+}
+
+.pb-3, .py-3 {
+  padding-bottom: 1rem;
+}
+.pt-3, .py-3 {
+  padding-top: 1rem;
+}
+article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
+  display: block;
+}
+*, ::after, ::before {
+  box-sizing: border-box;
+}
+
 /* contact me*/
 /*code from https://codepen.io/Chitransh_Harshwal/pen/bjjwep*/
 .container2 {
@@ -91,7 +108,7 @@ nav{
     font-size: 1.4rem;
     font-weight: 200;
     color: var(--accent);
-    border-bottom: 2px solid #fdd4fa;;
+    border-bottom: 2px solid #f1d3d8;;;
     background-color: rgb(231, 231, 231);
     outline: none;
     box-sizing: border-box;
@@ -101,7 +118,7 @@ nav{
   
   input:focus {
     font-style: italic;
-    border-bottom: 2px solid #fdd4fa;;
+    border-bottom: 2px solid #f1d3d8;;;
   }
   
   textarea{
@@ -112,7 +129,7 @@ nav{
     font-family: 'Oswald', sans-serif;
     font-size: 1.4rem;
     font-weight: 200;
-    border-bottom: 2px solid #fdd4fa;
+    border-bottom: 2px solid #f1d3d8;;
     background-color: rgb(231, 231, 231);
     outline: none;
     height: 100px;
@@ -121,11 +138,11 @@ nav{
   
   textarea:focus  {
     font-style: italic;
-    border-bottom: 2px solid #fdd4fa;
+    border-bottom: 2px solid #f1d3d8;;
   }
   
   input[type=submit] {
-    border: 2px solid #fdd4fa;;
+    border: 2px solid #f1d3d8;;;
     padding: 12px 12px 10px 12px;
     font-size: 18px;
     font-family: 'Oswald', sans-serif;
@@ -142,9 +159,9 @@ nav{
     color: var(--text2);
     padding: 12px 56px 10px 56px;
     outline: none;
-    border: 2px solid #fdd4fa;
+    border: 2px solid #f1d3d8;;
     letter-spacing: 0px;
-    background-color: #fdd4fa;
+    background-color: #f1d3d8;;
     
   }
   
