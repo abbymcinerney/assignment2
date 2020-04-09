@@ -123,11 +123,11 @@ nav{
     padding: 12px;
     border: hidden;
     font-size: 18px;
-    font-family: 'Oswald', sans-serif;
+    
     font-size: 1.4rem;
     font-weight: 200;
     color: var(--accent);
-    border-bottom: 2px solid #f1d3d8;;;
+    border: 2px solid #f1d3d8;;;
     background-color: rgb(231, 231, 231);
     outline: none;
     box-sizing: border-box;
