@@ -69,14 +69,15 @@ nav{
   overflow: hidden;
   position: relative;
 }
-
 .portfolio {/*this puts the images into a grid*/
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   display: flex;
   flex-direction: row;
-  justify-content: center;
-  
+  justify-content: center; 
+}
+.my-4{
+  border: 0.5px solid #f1d3d8;
 }
 
 
@@ -91,15 +92,6 @@ nav{
   align-content: center;
   font-weight: 300;
 }
-.col-5{
-  border-right: 2px dashed #f1d3d8;
-}
-.col-4{
-  border-left: 2px dashed #f1d3d8;
-}
-
-
-
 .header{
   font-weight: 500;
   border-bottom: 2px dashed #f1d3d8;
@@ -117,8 +109,7 @@ nav{
   
 }
 .gap{
-  font-size: 0.2rem;
-  
+  font-size: 0.2rem; 
 }
 
 /* contact me*/
