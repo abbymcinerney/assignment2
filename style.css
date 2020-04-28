@@ -143,10 +143,12 @@ nav{
   
   text-align: left;
 }
+
+/*hamburger*/
+
 /* contact me*/
 /*code from https://codepen.io/Chitransh_Harshwal/pen/bjjwep*/
 
-  
   .row1:after {
     content: "";
     display: table;
@@ -241,5 +243,4 @@ nav{
           margin-top: 0;
       }
   }
-
 
