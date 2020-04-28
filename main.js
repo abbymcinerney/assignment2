@@ -1,5 +1,5 @@
 
-    //contact
+
     let input1 = document.getElementById("exampleFormControlInput1");
     let input2 = document.getElementById("exampleFormControlInput2");
     let input3 = document.getElementById("exampleFormControlInput3");
@@ -10,17 +10,17 @@
     let empty3 = document.getElementById("empty3");
     let empty4 = document.getElementById("empty4");
     
+    
 
     
-//contact page
+
     submit.addEventListener("click", form);
+   
 
     empty1.style.display="none";
     empty2.style.display="none";
     empty3.style.display="none";
     empty4.style.display="none";
-    
-    
     
     function form() {
         if(input1.value==="" || input2.value===""|| input3.value===""|| input4.value===""){ //https://stackoverflow.com/questions/2363840/how-to-use-or-condition-in-a-javascript-if-statement
@@ -49,6 +49,8 @@
         }
         
     }
+
+   
 
     
 
