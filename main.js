@@ -1,4 +1,4 @@
-window.onload=function(){
+
     //contact
     let input1 = document.getElementById("exampleFormControlInput1");
     let input2 = document.getElementById("exampleFormControlInput2");
@@ -9,7 +9,8 @@ window.onload=function(){
     let empty2 = document.getElementById("empty2");
     let empty3 = document.getElementById("empty3");
     let empty4 = document.getElementById("empty4");
-  
+    
+
     
 //contact page
     submit.addEventListener("click", form);
@@ -18,7 +19,7 @@ window.onload=function(){
     empty2.style.display="none";
     empty3.style.display="none";
     empty4.style.display="none";
-   
+    
     
     
     function form() {
@@ -26,6 +27,7 @@ window.onload=function(){
             alert("Some fields are empty, please fill all fields!");
             if(input1.value===""){
                 empty1.style.display = "inline";
+                
             }
             if(input2.value===""){
                 empty2.style.display = "inline";
@@ -48,7 +50,6 @@ window.onload=function(){
         
     }
 
-//navbar
+    
 
 
-}
