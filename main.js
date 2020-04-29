@@ -9,7 +9,7 @@
     let empty2 = document.getElementById("empty2");
     let empty3 = document.getElementById("empty3");
     let empty4 = document.getElementById("empty4");
-    
+    let twitter= document.getElementById("twitter");
     
 
     
@@ -21,7 +21,7 @@
     empty2.style.display="none";
     empty3.style.display="none";
     empty4.style.display="none";
-    
+  
     function form() {
         if(input1.value==="" || input2.value===""|| input3.value===""|| input4.value===""){ //https://stackoverflow.com/questions/2363840/how-to-use-or-condition-in-a-javascript-if-statement
             alert("Some fields are empty, please fill all fields!");
