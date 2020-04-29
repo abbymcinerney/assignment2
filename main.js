@@ -12,16 +12,18 @@
     let twitter= document.getElementById("twitter");
     
 
-    
-
-    submit.addEventListener("click", form);
+    /*if(submit===null){
+        twitter.style.display="none";
+    }*/
+    if (submit!=null){
+        submit.addEventListener("click", form);
+        empty1.style.display="none";
+        empty2.style.display="none";
+        empty3.style.display="none";
+        empty4.style.display="none";
+        
+    }
    
-
-    empty1.style.display="none";
-    empty2.style.display="none";
-    empty3.style.display="none";
-    empty4.style.display="none";
-  
     function form() {
         if(input1.value==="" || input2.value===""|| input3.value===""|| input4.value===""){ //https://stackoverflow.com/questions/2363840/how-to-use-or-condition-in-a-javascript-if-statement
             alert("Some fields are empty, please fill all fields!");
