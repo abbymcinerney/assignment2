@@ -12,14 +12,14 @@
     let twitter= document.getElementById("twitter");
     let me= document.getElementById("abby");
 
+    //about page
     function changePic() {
         me.src = "images/melaugh.jpg";
       }
-      
     function normalPic() {
         me.src = "images/me.jpg";
       }
-   
+    //contact page
     if (submit!=null){
         submit.addEventListener("click", form);
         empty1.style.display="none";
