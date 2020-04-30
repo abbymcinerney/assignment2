@@ -12,9 +12,8 @@
     let twitter= document.getElementById("twitter");
     
 
-    /*if(submit===null){
-        twitter.style.display="none";
-    }*/
+    
+   
     if (submit!=null){
         submit.addEventListener("click", form);
         empty1.style.display="none";
