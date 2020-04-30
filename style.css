@@ -12,7 +12,10 @@ body{
 a{
     color: black;
 }
-
+.title{
+  font-size: 1.2rem;
+  font-weight: 900;
+}
 nav{
   margin-top: 1rem;
 }
@@ -107,7 +110,7 @@ a:hover{
   text-align: left;
 }
 .header{
-  font-weight: 500;
+  font-weight: bold;
   border-bottom: 1.5px dashed #f1d3d8;
   
 }
@@ -149,7 +152,7 @@ a:hover{
 }
 .about-header{
   font-size: 1.6rem;
-  font-weight: 360;
+  font-weight: bold;
   
   border-bottom: 1px solid #f1d3d8;
 }
