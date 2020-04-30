@@ -19,6 +19,7 @@
     let hamburger=document.getElementById("hamburger");
     let title=document.getElementById("title")
 
+    //hamburger menu
     if (hamburger!=null){
     quit.style.display="none";
     option1.style.display="none";
