@@ -5,6 +5,7 @@
 body{
     background-color: rgb(236, 236, 236);
     text-align: center;
+    font-family: 'Open Sans', sans-serif;
 }
 
 
@@ -16,6 +17,19 @@ nav{
   margin-top: 1rem;
 }
 
+.menu{
+  color: #000000;
+}
+.menu:hover{
+  color: #e6788a;
+}
+
+a{
+  color: #000000;
+}
+a:hover{
+  color: #e6788a;
+}
 /*landing page cards*/
 
 .centre{ 
@@ -176,7 +190,7 @@ nav{
 
     font-size: 1.4rem;
     font-weight: 200;
-    color: var(--accent);
+    
     border: 2px solid #f1d3d8;
     background-color: rgb(231, 231, 231);
     outline: none;

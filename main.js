@@ -11,7 +11,44 @@
     let empty4 = document.getElementById("empty4");
     let twitter= document.getElementById("twitter");
     let me= document.getElementById("abby");
+    let quit=document.getElementById("quit");
+    let option1= document.getElementById("option1");
+    let option2= document.getElementById("option2");
+    let option3= document.getElementById("option3");
+    let option4= document.getElementById("option4");
+    let hamburger=document.getElementById("hamburger");
+    let title=document.getElementById("title")
 
+    if (hamburger!=null){
+    quit.style.display="none";
+    option1.style.display="none";
+    option2.style.display="none";
+    option3.style.display="none";
+    option4.style.display="none";
+
+    hamburger.addEventListener("click", menu);
+    quit.addEventListener("click",closeMenu);
+    }
+    function menu(){
+        quit.style.display="inline";
+        option1.style.display="inline";
+        option2.style.display="inline";
+        option3.style.display="inline";
+        option4.style.display="inline";
+        hamburger.style.display="none";
+        title.style.display="none";
+    }
+
+    function closeMenu(){
+        quit.style.display="none";
+        option1.style.display="none";
+        option2.style.display="none";
+        option3.style.display="none";
+        option4.style.display="none";
+        hamburger.style.display="inline";
+        title.style.display="inline";
+    }
+    
     //about page
     function changePic() {
         me.src = "images/melaugh.jpg";
@@ -21,7 +58,7 @@
       }
 
     //hamburger menu
-    
+
     //contact page
     if (submit!=null){
         submit.addEventListener("click", form);

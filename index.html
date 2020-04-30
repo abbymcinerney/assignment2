@@ -7,6 +7,7 @@
     <title>Home</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=News+Cycle&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Acme&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/8ccdd129bb.js" crossorigin="anonymous"></script>
 </head>
@@ -14,15 +15,22 @@
 
 
   <nav class="navbar navbar-light" style="background-color: #f1d3d8;">
-    <a class="navbar-brand" href="index.html">
-      <img src="images/heart.jpg" width="30" height="30" class="d-inline-block align-top" alt="">
-      AbbyMcinerney
-    </a>
-    <a class="nav-item nav-link" href="about.html">About</a>
-    <a class="nav-item nav-link" href="portfolio.html">Portfolio</a>
-    <a class="nav-item nav-link" href="cv.html">CV</a>
-    <a class="nav-item nav-link" href="contact.html" >Contact</a>
+   
+    <div class="menu">
+      <i class="fas fa-bars" id="hamburger"></i>
+      <i class="fas fa-times" id="quit"></i>
+    </div>
     
+    
+    <div id="title">HOME</div>
+    
+    <a class="nav-item nav-link" href="about.html" id="option1">ABOUT</a>
+    <a class="nav-item nav-link" href="portfolio.html" id="option2">PORTFOLIO</a>
+    <a class="nav-item nav-link" href="cv.html" id="option3" >CV</a>
+    <a class="nav-item nav-link" href="contact.html" id="option4" >CONTACT</a>
+    <a class="navbar-brand" href="index.html">
+      <div class="menu"><i class="fas fa-home"></i></div>
+    </a>
    
   </nav>
 
