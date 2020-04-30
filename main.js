@@ -10,9 +10,15 @@
     let empty3 = document.getElementById("empty3");
     let empty4 = document.getElementById("empty4");
     let twitter= document.getElementById("twitter");
-    
+    let me= document.getElementById("abby");
 
-    
+    function changePic() {
+        me.src = "images/melaugh.jpg";
+      }
+      
+    function normalPic() {
+        me.src = "images/me.jpg";
+      }
    
     if (submit!=null){
         submit.addEventListener("click", form);
