@@ -58,8 +58,7 @@
         me.src = "images/me.jpg";
       }
 
-    //hamburger menu
-
+   
     //contact page
     if (submit!=null){
         submit.addEventListener("click", form);
