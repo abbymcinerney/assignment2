@@ -70,7 +70,7 @@
     }
    
     function form() {
-        if(input1.value==="" || input2.value===""|| input3.value===""|| input4.value===""){ //https://stackoverflow.com/questions/2363840/how-to-use-or-condition-in-a-javascript-if-statement
+        if(input1.value==="" ||  input2.value===""|| input3.value===""|| input4.value===""){ //https://stackoverflow.com/questions/2363840/how-to-use-or-condition-in-a-javascript-if-statement
             alert("Some fields are empty, please fill all fields!");
             if(input1.value===""){
                 empty1.style.display = "inline";
